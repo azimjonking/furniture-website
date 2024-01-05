@@ -1,0 +1,49 @@
+.material {
+    padding: 120px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 120px;
+    align-items: center;
+}
+
+.material-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.material-info .title {
+    width: 80%;
+}
+
+.material-info .description {
+    width: 90%;
+}
+
+.material-images {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: flex-end;
+}
+
+.material-images .image-2 {
+    grid-row: auto / span 2;
+}
+
+.material-images .material-image {
+    width: 100%;
+    height: fit-content;
+    border-radius: 20px;
+}
+
+.material-images .material-image .img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.material-images .material-image .img img {
+    transition: all .3s ease;
+}
+.material-images .material-image .img:hover img {
+    transform: scale(1.05);
+}

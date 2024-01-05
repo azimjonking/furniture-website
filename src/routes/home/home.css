@@ -1,0 +1,35 @@
+ .more-info__btn{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #E58411;
+    font-size: 14px;
+    transition: all .3s;
+}
+.more-info__btn:hover {
+    letter-spacing: 1px;
+    gap: 18px;
+}
+.more-info__btn i {
+    color: #E58411;
+    font-size: 14px;
+    transform: scaleX(2);
+}
+
+.home .subtitle {
+    color: #E58411;
+    font-size: 18px;
+    letter-spacing: 3.15px;
+    text-transform: uppercase;
+}
+
+.home .title {
+    font-size: 42px;
+    text-transform: capitalize;
+}
+
+.home .description {
+    font-size: 18px;
+    opacity: 0.8;
+}

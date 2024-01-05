@@ -1,0 +1,63 @@
+.home-main {
+    background: url(../../../../public/images/home-bcg.png) no-repeat bottom;
+    background-size: cover;
+    min-height: 125vh;
+    padding-top: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.home-main h1 {
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 130%; /* 104px */
+    letter-spacing: -0.8px;
+    text-transform: capitalize;
+}
+
+.home-main p {
+    width: 40%;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    opacity: 0.8;
+}
+
+.main-search {
+    margin-top: 45px;
+    display: flex;
+    width: 344px;
+    padding: 8px 8px 8px 20px;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 42px;
+    border: 0.862px solid rgba(255, 255, 255, 0.60);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(1px);
+}
+
+.main-search input[placeholder] {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 150%; /* 27px */
+    opacity: 0.8;
+}
+.main-search .search-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px;
+    border-radius: 24px;
+    background: #E58411;
+
+    
+}
+.main-search .search-btn i {
+    font-size: 1rem;
+    color: #fff;
+}

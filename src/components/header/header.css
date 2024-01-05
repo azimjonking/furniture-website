@@ -1,0 +1,63 @@
+header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    background: #222;
+}
+header.active {
+    background: #222;
+    z-index: 1000;
+}
+.header-container {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    height: 5rem;
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo a {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    text-transform: capitalize;
+}
+
+header nav ul {
+    display: flex;
+    gap: 60px;
+}
+
+header nav ul li a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.3s;
+}
+header nav ul li a:hover,
+header nav ul li a.active {
+    color: #E58411;
+}
+header .basket {
+    width: fit-content;
+    position: relative;
+}
+header .basket i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+header .basket span {
+    padding: 5px;
+    border-radius: 40%;
+    background: #E58411;
+    color: #fff;
+    position: absolute;
+    top: -50%;
+    right: -50%;
+
+}
