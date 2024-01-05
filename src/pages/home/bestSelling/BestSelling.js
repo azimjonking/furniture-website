@@ -46,7 +46,7 @@ const BestSelling = () => {
 
         <div className="filter-content">
           <div className="img">
-            <img src={chairImg1} alt="Sakarias Armchair" />
+            <img src={chairImg1} alt="Sakarias Armchair" loading="lazy" />
           </div>
           <span className="item-type">Chair</span>
           <h3 className="item-name">Sakarias Armchair</h3>
@@ -71,7 +71,7 @@ const BestSelling = () => {
         
         <div className="filter-content">
           <div className="img">
-            <img src={chairImg2} alt="Baltsar Chair" />
+            <img src={chairImg2} alt="Baltsar Chair" loading="lazy" />
           </div>
           <span className="item-type">Chair</span>
           <h3 className="item-name">Baltsar Chair</h3>
@@ -96,7 +96,7 @@ const BestSelling = () => {
         
         <div className="filter-content">
           <div className="img">
-            <img src={chairImg3} alt="Anjay Chair" />
+            <img src={chairImg3} alt="Anjay Chair" loading="lazy" />
           </div>
           <span className="item-type">Chair</span>
           <h3 className="item-name">Anjay Chair</h3>
@@ -121,7 +121,7 @@ const BestSelling = () => {
         
         <div className="filter-content">
           <div className="img">
-            <img src={chairImg4} alt="Nyantuy Chair" />
+            <img src={chairImg4} alt="Nyantuy Chair" loading="lazy" />
           </div>
           <span className="item-type">Chair</span>
           <h3 className="item-name">Nyantuy Chair</h3>

@@ -25,17 +25,17 @@ const Material = () => {
       <div className="material-images grid">
         <div className="material-image image-1">
           <div className="img">
-            <img src={materialImg1} alt="material-img.png" />
+            <img src={materialImg1} alt="material-img.png" loading="lazy" />
           </div>
         </div>
         <div className="material-image image-2">
           <div className="img">
-            <img src={materialImg2} alt="material-img.png" />
+            <img src={materialImg2} alt="material-img.png" loading="lazy" />
           </div>
         </div>
         <div className="material-image image-3">
           <div className="img">
-            <img src={materialImg3} alt="material-img.png" />
+            <img src={materialImg3} alt="material-img.png" loading="lazy" />
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ const Experience = () => {
     <section className="experience grid" id="experience">
       <div className="experience-img">
         <div className="img">
-          <img src={experineceImg} alt="experience" />
+          <img src={experineceImg} alt="experience" loading="lazy" />
         </div>
       </div>
       <div className="experience-info">

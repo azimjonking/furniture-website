@@ -26,12 +26,12 @@ const Testimonial = () => {
 
         <div className="testimonial-content">
           <div className="img">
-            <img src={testimonialImg1} alt="testimonialImg1" />
+            <img src={testimonialImg1} alt="testimonialImg1" loading="lazy" />
           </div>
 
           <div className="content-1 content">
             <div className="client-img">
-              <img src={client1} alt="client-1" />
+              <img src={client1} alt="client-1" loading="lazy" />
             </div>
 
             <h3 className="client-name">Bang Upin</h3>
@@ -58,12 +58,12 @@ const Testimonial = () => {
 
         <div className="testimonial-content">
           <div className="img">
-            <img src={testimonialImg2} alt="testimonialImg2" />
+            <img src={testimonialImg2} alt="testimonialImg2" loading="lazy" />
           </div>
 
           <div className="content-2 content">
             <div className="client-img">
-              <img src={client2} alt="client-2" />
+              <img src={client2} alt="client-2" loading="lazy" />
             </div>
 
             <h3 className="client-name">Ibuk Sukijan</h3>
@@ -90,12 +90,12 @@ const Testimonial = () => {
 
         <div className="testimonial-content">
           <div className="img">
-            <img src={testimonialImg3} alt="testimonialImg3" />
+            <img src={testimonialImg3} alt="testimonialImg3" loading="lazy" />
           </div>
 
           <div className="content-3 content">
             <div className="client-img">
-              <img src={client3} alt="client-3" />
+              <img src={client3} alt="client-3" loading="lazy" />
             </div>
 
             <h3 className="client-name">Mpok Ina</h3>
